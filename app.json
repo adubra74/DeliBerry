@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "DeliveCrous",
-    "slug": "DeliveCrous",
+    "slug": "deliberry",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dubraya.pickydelivery"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dubraya.pickydelivery"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83056323-9ec6-4c18-b30d-aecb526b0ae2"
+      }
+    },
+    "owner": "dubraya"
   }
 }
