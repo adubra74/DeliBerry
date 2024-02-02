@@ -2,7 +2,7 @@ import React from 'react'
 import { View, StyleSheet,Text, Image, TouchableOpacity } from 'react-native'
 
 const NavBar = (props) => {
-    const handleClick = () => {
+    const handleHome = () => {
         //console.log('change de page !!');
         props.setPage('Home');
         props.setItem(null);
@@ -20,7 +20,7 @@ const NavBar = (props) => {
   <View style={style.container}>
 
     
-    <TouchableOpacity onPress={handleClick}>
+    <TouchableOpacity onPress={handleHome}>
         <View>
         <Image source={require('../assets/images/arrow.png')} style={style.img}/>
         </View>

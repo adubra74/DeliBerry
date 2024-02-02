@@ -6,9 +6,6 @@ function Form(props) {
     const [ville, setVille] = useState('');
     const [postal, setPostal] = useState('');
     const [detail, setDetail] = useState('');
-    const [isRueFilled, setIsRueFilled] = useState(true);
-    const [isVilleFilled, setIsVilleFilled] = useState(true);
-    const [isPostalFilled, setIsPostalFilled] = useState(true);
     const setPage = props.setPage;
     const setItem = props.setItem;
     const page = props.page;

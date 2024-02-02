@@ -1,7 +1,7 @@
 import React, { useSyncExternalStore, useState } from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-function Success(props){
+function Success(){
     return(
 
 <ScrollView contentContainerStyle={style.container}>
