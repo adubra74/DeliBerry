@@ -17,6 +17,10 @@ function Form(props) {
                     console.log('Code Postal:', postal); 
                     setPage('Success');
                     setItem(null);
+                    
+                    props.panier.map(item => {
+                        item.selected=false;
+                    });
                 }
             }
         }

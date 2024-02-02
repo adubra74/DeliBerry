@@ -30,7 +30,7 @@ function Panier(props) {
             <Text style={styles.total}>Total:  <Text style={{fontWeight:'bold', fontSize:16}}>{total}€</Text> </Text>
             </View>
             <View style={styles.form} >
-                <Form page={page} setPage={setPage} setItem={setItem} />
+                <Form page={page} setPage={setPage} setItem={setItem} panier={panier} />
             </View>
         </ScrollView>
     )
